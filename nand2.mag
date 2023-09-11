@@ -1,0 +1,160 @@
+magic
+tech sky130A
+timestamp 1694366269
+<< nwell >>
+rect -120 100 200 240
+<< nmos >>
+rect 0 -35 15 65
+rect 65 -35 80 65
+<< pmos >>
+rect 0 120 15 220
+rect 65 120 80 220
+<< ndiff >>
+rect -50 50 0 65
+rect -50 -20 -35 50
+rect -15 -20 0 50
+rect -50 -35 0 -20
+rect 15 50 65 65
+rect 15 -20 30 50
+rect 50 -20 65 50
+rect 15 -35 65 -20
+rect 80 50 130 65
+rect 80 -20 95 50
+rect 115 -20 130 50
+rect 80 -35 130 -20
+<< pdiff >>
+rect -50 205 0 220
+rect -50 135 -35 205
+rect -15 135 0 205
+rect -50 120 0 135
+rect 15 205 65 220
+rect 15 135 30 205
+rect 50 135 65 205
+rect 15 120 65 135
+rect 80 205 130 220
+rect 80 135 95 205
+rect 115 135 130 205
+rect 80 120 130 135
+<< ndiffc >>
+rect -35 -20 -15 50
+rect 30 -20 50 50
+rect 95 -20 115 50
+<< pdiffc >>
+rect -35 135 -15 205
+rect 30 135 50 205
+rect 95 135 115 205
+<< psubdiff >>
+rect -100 50 -50 65
+rect -100 -20 -85 50
+rect -65 -20 -50 50
+rect -100 -35 -50 -20
+rect 130 -35 180 65
+<< nsubdiff >>
+rect -100 205 -50 220
+rect -100 135 -85 205
+rect -65 135 -50 205
+rect -100 120 -50 135
+rect 130 205 180 220
+rect 130 135 145 205
+rect 165 135 180 205
+rect 130 120 180 135
+<< psubdiffcont >>
+rect -85 -20 -65 50
+<< nsubdiffcont >>
+rect -85 135 -65 205
+rect 145 135 165 205
+<< poly >>
+rect 40 265 80 275
+rect 40 245 50 265
+rect 70 245 80 265
+rect 40 235 80 245
+rect 0 220 15 235
+rect 65 220 80 235
+rect 0 65 15 120
+rect 65 65 80 120
+rect 0 -50 15 -35
+rect 65 -50 80 -35
+rect -25 -60 15 -50
+rect -25 -80 -15 -60
+rect 5 -80 15 -60
+rect -25 -90 15 -80
+<< polycont >>
+rect 50 245 70 265
+rect -15 -80 5 -60
+<< locali >>
+rect 40 265 80 275
+rect 40 255 50 265
+rect -120 245 50 255
+rect 70 245 80 265
+rect -120 235 80 245
+rect -95 205 -5 215
+rect -95 135 -85 205
+rect -65 135 -35 205
+rect -15 135 -5 205
+rect -95 125 -5 135
+rect 20 205 60 215
+rect 20 135 30 205
+rect 50 135 60 205
+rect 20 125 60 135
+rect 85 205 175 215
+rect 85 135 95 205
+rect 115 135 145 205
+rect 165 135 175 205
+rect 85 125 175 135
+rect 40 100 60 125
+rect 40 80 105 100
+rect 85 60 105 80
+rect -95 50 -5 60
+rect -95 -20 -85 50
+rect -65 -20 -35 50
+rect -15 -20 -5 50
+rect -95 -30 -5 -20
+rect 20 50 60 60
+rect 20 -20 30 50
+rect 50 -20 60 50
+rect 20 -30 60 -20
+rect 85 50 125 60
+rect 85 -20 95 50
+rect 115 -20 125 50
+rect 85 -30 125 -20
+rect 85 -50 105 -30
+rect -120 -60 15 -50
+rect -120 -70 -15 -60
+rect -25 -80 -15 -70
+rect 5 -80 15 -60
+rect 85 -70 200 -50
+rect -25 -90 15 -80
+<< viali >>
+rect -85 135 -65 205
+rect -35 135 -15 205
+rect 95 135 115 205
+rect 145 135 165 205
+rect -85 -20 -65 50
+rect -35 -20 -15 50
+rect 145 -20 165 50
+<< metal1 >>
+rect -120 205 200 215
+rect -120 135 -85 205
+rect -65 135 -35 205
+rect -15 135 95 205
+rect 115 135 145 205
+rect 165 135 200 205
+rect -120 125 200 135
+rect -120 50 200 60
+rect -120 -20 -85 50
+rect -65 -20 -35 50
+rect -15 -20 145 50
+rect 165 -20 200 50
+rect -120 -30 200 -20
+<< labels >>
+rlabel locali -120 245 -120 245 7 A
+port 1 w
+rlabel locali -120 -60 -120 -60 7 B
+port 2 w
+rlabel locali 200 -60 200 -60 3 Y
+port 3 e
+rlabel metal1 -120 170 -120 170 7 VP
+port 4 w
+rlabel metal1 -120 15 -120 15 7 VN
+port 5 w
+<< end >>
